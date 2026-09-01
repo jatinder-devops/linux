@@ -5,5 +5,5 @@ This command show the directory where we present working
 ### w- working
 ### d- directory
 Here we see the output 
-[pwd](Navigaton-command/screenshot/pwd/pwd.png)
+[pwd](/Navigaton-command/screenshot/pwd/pwd.png)
 
