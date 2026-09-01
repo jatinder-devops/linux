@@ -39,11 +39,13 @@ The mnt directory is where the system administrators mount temporary files syste
 ## opt
 
 ## proc
+Contains special files that prevent system and process information . It represents system and process information. 
 
 ## root
+This is the home directory of the root user. /root directory content is only accessed by the root user 
 
 ## run
-
+This directory gives applications a standard place to store Run-time variable data
 ## sbin
 
 ## snap
