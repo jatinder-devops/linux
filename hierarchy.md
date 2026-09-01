@@ -17,19 +17,25 @@ This directory contains static files required to boot a system. Such as Linux ke
 This directory contains device nodes that either represent devices that are attached to the system or virtual devices provided by the kernel. 
 
 ## etc
+This is where you will find configuration files. Configuration files control how the operating system or applications behave.
 
 ## home
+/home contains the personal directories of users, where each user can keep their own files and data.
+For example, users can store documents, pictures, music, videos, and other personal files there.
 
 ## lib
+The /lib directory contains libraries needed by essential binaries in the /bin and /sbin folder.
 
 ## lib64
 
 ## lost+found
 
 ## media
+Media directory is a mount point for removable devices (eg. USB drives, external hard disks).
 
 ## mnt
-
+The mnt directory is where the system administrators mount temporary files systems
+ 
 ## opt
 
 ## proc
@@ -43,13 +49,22 @@ This directory contains device nodes that either represent devices that are atta
 ## snap
 
 ## srv
+This directory is often used for data related to services running on the system.
 
 ## swap.img
 
 ## sys
 
-## tmp
+## tmp 
+Temporary files are stored in /tmp.
+Most linux distros clear tmp at boot time.
+So if you store files in /tmp and you reboot your server , you will loose these files. 
 
 ## usr
 
+User-related programs, libraries, and documentation are stored in /usr.
+It is a large directory containing subdirectories like /usr/bin, /usr/lib, and /usr/share.
+
 ## var
+stores data that changes frequently, such as log files, temporary data, and spool files.
+It is commonly used by the Linux system and applications to store regularly updated information.
