@@ -4,4 +4,5 @@ information placed in a storage medium would be one large body of data with no w
 By separating the data into pieces and giving each piece a name, the information is easily isolated and identified
 ## Types of file system 
 |linux|window|
-|-------|------|
+|:------|------:|
+|fat|
