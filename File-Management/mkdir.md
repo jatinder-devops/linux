@@ -20,3 +20,11 @@ mkdir -p <dir1/dir2/dir3>
 ```
 mkdir -v <dir-name>
 ```
+### for creating multiple directory using array
+```
+mkdir dir{1..3}
+```
+This will create three directory in single time 
+
+
+
