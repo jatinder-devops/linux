@@ -26,5 +26,7 @@ mkdir dir{1..3}
 ```
 This will create three directory in single time 
 
+ ---
+# rmdir
 
 
