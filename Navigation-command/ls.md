@@ -31,3 +31,7 @@ ls -r
 ```
 ls -1
 ```
+###  To display list of item  parent directory of current directory.
+```
+ls ..
+```
