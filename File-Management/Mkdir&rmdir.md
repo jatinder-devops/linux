@@ -28,5 +28,21 @@ This will create three directory in single time
 
  ---
 # rmdir
+### ***rmdir*** is stand for remove directory and it let you delete empty directories.
+
+#### To remove an empty directory:
+
+```
+rmdir <directory-name>
+```
+For removing parent directory
+```
+rmdir -p /parent/child
+```
+### To display message after removing the directory
+```
+rmdir -v dir1 dir2 dir3
+```
+
 
 
