@@ -5,9 +5,14 @@
 mv 
 ```
 ## use-case of mv
+
 ### To rename the file or directory using ***mv*** command 
 ```
 mv <recent-name> <changed-name>
+```
+### To move a file or directory from current location to destination.
+```
+mv <name_file> <path/to/destination>
 ```
 ### To get promts before overwiting
 ```
