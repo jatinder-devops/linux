@@ -35,7 +35,7 @@ mv *.txt destination_directory
 
 ```
 
-###Renaming Multiple Files
+### Renaming Multiple Files
 With a bit of creativity, you can rename multiple files:
 ```
 for file in *.txt; do mv "$file" "${file%.txt}.bak"; done
