@@ -1,6 +1,6 @@
 #cp
 ## cp stand for copy. It allows you to copy files, folders, and directories within the Linux system.
-## basic syntax
+## basic syntax  
 ```
 cp [options] <source> <desitination>
 ```
