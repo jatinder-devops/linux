@@ -64,4 +64,23 @@ sudo useradd -m -p $(openssl passwd -6 "123456") test
 ```
 <img width="1177" height="208" alt="image" src="https://github.com/user-attachments/assets/b5478aa3-98ad-4063-8518-c71dc3416707" />
 
+### creating user to get the prompt to change password on first login 
 
+```
+sudo chage -d 0 <user-name>
+sudo passwd -e <user-name>
+```
+### creating user with an expiry date
+```
+sudo user add -e <date> <user-name>
+
+```
+### create user with description
+```
+sudo useradd -c "Description" <user-name>
+
+```
+### Create a User with a Specific Login Shell
+```
+sudo useradd -s /bin/<shell-name> <user-name>
+```
