@@ -32,5 +32,28 @@ sudo usermod -d /new/home/directory <user-name
 ```
 ### To move home Directory contents
 ```
-sudo usermod -d /new/
+sudo usermod -d /new/home/directory -m <user-name>
+
+```
+### To change a shell of user 
+```
+sudo usermod -s /to/path/shell <username>
+
+```
+### To assign a UID 
+```
+sudo usermod -u <user-id> <user-name>
+```
+### To lock a user 
+```
+sudo usermod -L <user-name>
+```
+### To rename user 
+```
+sudo usermod -l <old-name> <new-name>
+
+```
+###  To unlock user 
+```
+sudo usermod -U <user-name>
 ```
