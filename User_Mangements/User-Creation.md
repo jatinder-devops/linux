@@ -87,6 +87,15 @@ sudo useradd -c "Description" <user-name>
 sudo useradd -s /bin/<shell-name> <user-name>
 ```
 
+### To create user without group
+```
+sudo useradd  -N <user-name>
+```
+### To create system user
+```
+sudo useradd -M -N -g nogroup -s /usr/sbin/nologin username
+
+```
 ## Use-case of adduser
 
 ### Creating an simple user using adduser command
