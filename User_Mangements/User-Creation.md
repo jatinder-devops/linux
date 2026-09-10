@@ -73,14 +73,51 @@ sudo passwd -e <user-name>
 ### creating user with an expiry date
 ```
 sudo user add -e <date> <user-name>
-
 ```
+
 ### create user with description
+
 ```
 sudo useradd -c "Description" <user-name>
+```
+
+### Create a User with a Specific Login Shell
 
 ```
-### Create a User with a Specific Login Shell
-```
 sudo useradd -s /bin/<shell-name> <user-name>
+```
+
+## Use-case of adduser
+
+### Creating an simple user using adduser command
+```
+sudo adduser <username>
+```
+
+⚠️After enter this command you have to fill all necessary information otherwise you will get difficulty in sorting user.
+
+<img width="1579" height="453" alt="image" src="https://github.com/user-attachments/assets/67f30003-e61a-4102-8b9a-3e92d71d9e92" />
+
+### create user with a specific login shell
+```
+sudo adduser <user-name> --shell <path/to/shell>
+```
+
+<img width="1585" height="478" alt="image" src="https://github.com/user-attachments/assets/6e2a320f-99fc-4702-8e50-7fb53800e5bf" />
+
+### creating user without home directory
+```
+sudo adduser --no-create-home <user-name>
+```
+
+<img width="1585" height="478" alt="image" src="https://github.com/user-attachments/assets/452d05ea-d780-442e-a7cc-ab9a86c374bc" />
+
+### creating a user with Different Configuration file.
+```
+sudo adduser <user-name> --conf <file-name.conf>
+```
+
+## To create system user
+```
+sudo adduser --system <username>
 ```
