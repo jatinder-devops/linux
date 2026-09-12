@@ -27,3 +27,12 @@ who --lookups
 ```
 who -r
 ```
+### To display all login names and number of users logged on
+```
+who -q
+```
+### To display list of user logged in
+```
+who -u
+```
+⚠️ Modern versions of systemd have officially dropped utmp support due to which who from coreutils has nothing to read and simply outputs a blank line.
