@@ -80,3 +80,15 @@ ulimit -c
 ```
 ulimit -l
 ```
+## **_HARD Limit_**:
+### A hard limit is the maximum amount of system resource that a user or process is allowed to use:
+In Linux a user  cannot increase the hard limit beyond the value set by the administrator:
+### Basic syntax 
+```
+ulimit -H<flag>
+```
+### To check the hard limit  of the user resource 
+```
+ulimit -Hn
+```
+
