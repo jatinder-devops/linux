@@ -1,10 +1,10 @@
 #  passwd
-## _passwd_ command is use to create or reset the passwd of user.
+## _passwd_ command is use to create or reset the password of user.
 ### Basic Syntax
 ```
 passwd [option] [USER]
 ```
-### use-cases of passwd command 
+### use-cases of password command 
 ### To change your own password 
 ```
 passwd 
