@@ -72,5 +72,8 @@ chmod g+/- [mode] <File-name>
 ```
 chmod o+/- [mode] <File-name>
 ```
-
-
+# To set permission with octal notations.
+### To set permission to all read,write and Execute with octal notation.
+```
+chmod 777 <>
+```
