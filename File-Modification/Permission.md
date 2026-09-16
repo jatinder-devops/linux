@@ -77,7 +77,7 @@ chmod o+/- [mode] <File-name>
 ```
 chmod 777 <File-name>
 ```
-### Table of octal notations
+### Table of octal notations.
 
 | Octal Value | Binary | Symbolic | Meaning |
 | :---: | :---: | :---: | :--- |
@@ -95,11 +95,11 @@ chmod 777 <File-name>
 ```
 chmod -t <Name-file>
 ```
-### To set permission with reference file
+### To set permission with reference file.
 ```
 chmod --reference=<refer-file-name>  <file-name>
 ```
-### To set permission recursively in a directory
+### To set permission recursively in a directory.
 ```
 chmod -R <permission> <directory-name>
 ```
@@ -107,11 +107,19 @@ In the case of parent child case.
 ```
 chmod -R <permisson> </file/child-file>
 ```
-### To set permission of all directories in particular location
+### To set permission of all directories in particular location.
 ```
 find <path/to/directory> -type d -exec chmod <permission> {} \;
 ```
-### To set permission of all files in particular location
+### To set permission of all files in particular location.
 ```
 find <path/to/directory> -type f -exec chmod <permission> {} \;
+```
+### To set permission in verbose mode.
+```
+chmod -v <permission> <file-name>
+```
+### To get output when a changes is made.
+```
+chmod -c <permission> <file-name>
 ```
