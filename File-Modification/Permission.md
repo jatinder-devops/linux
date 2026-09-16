@@ -75,5 +75,43 @@ chmod o+/- [mode] <File-name>
 # To set permission with octal notations.
 ### To set permission to all read,write and Execute with octal notation.
 ```
-chmod 777 <>
+chmod 777 <File-name>
+```
+### Table of octal notations
+
+| Octal Value | Binary | Symbolic | Meaning |
+| :---: | :---: | :---: | :--- |
+| **0** | `000` | `---` | No permissions at all |
+| **1** | `001` | `--x` | Execute only |
+| **2** | `010` | `-w-` | Write only |
+| **3** | `011` | `-wx` | Write and Execute (2 + 1) |
+| **4** | `100` | `r--` | Read only |
+| **5** | `101` | `r-x` | Read and Execute (4 + 1) |
+| **6** | `110` | `rw-` | Read and Write (4 + 2) |
+| **7** | `111` | `rwx` | Read, Write, and Execute (4 + 2 + 1) |
+
+## Stickybit 
+### To prevent file deletion and renaming inside a shared directory.
+```
+chmod -t <Name-file>
+```
+### To set permission with reference file
+```
+chmod --reference=<refer-file-name>  <file-name>
+```
+### To set permission recursively in a directory
+```
+chmod -R <permission> <directory-name>
+```
+In the case of parent child case.
+```
+chmod -R <permisson> </file/child-file>
+```
+### To set permission of all directories in particular location
+```
+find <path/to/directory> -type d -exec chmod <permission> {} \;
+```
+### To set permission of all files in particular location
+```
+find <path/to/directory> -type f -exec chmod <permission> {} \;
 ```
