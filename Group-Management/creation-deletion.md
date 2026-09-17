@@ -8,5 +8,46 @@ There are two types of groups
 - The group's basic information such as group id, name, members are slove u too red in /etc/group.
 - The group passwords are slove u too red in encrypted form in /etc/gshadow.
 
-## Use-case of Group Management
-### 
+## Command to create Group:
+### Basic syntax of Group creation:
+```
+sudo groupadd <OPTION> <NAME>
+```
+
+### To create group 
+```
+sudo groupadd <NAME>
+```
+### To assign a specific numeric group ID
+```
+sudo groupadd -g <NAME>
+```
+### To create system group.
+```
+sudo groupadd -r <NAME>
+```
+###  To get success status if the group is already exists rather then geting error
+```
+sudo groupadd -f <NAME>
+```
+### To allow duplicate GID.
+```
+sudo groupadd -o <NAME>
+```
+## Another way to create group
+### Basic Syntax
+```
+sudo addgroup <OPTION> <NAME>
+```
+### To create group with a specific GID
+```
+sudo addgroup --gid <value> <NAME>
+```
+### To create a system user:
+```
+sudo addgroup --system <NAME>
+```
+### To add an existing user to existing group
+```
+sudo addgroup <username> <NAME>
+```
