@@ -1,15 +1,15 @@
 # ACLs
-**_ACLs_** stand for Access Control List. It allow us to set specific permission for individual user groups and owner. ACL allow us to set more detailed permission giving us greater flexibility and control over who can access your files and directories.
-**_ACL_** help us to manage complex permission requirements easily.
-Use of acl
-Granular control: Assign permission to individual user or group without changing  the file's ownership.
-Flexibility: Manage access for multiple users or group with different permission levels.
-Enhanced Collaboration: Share files and directories securely in multi-user environments.
+- **_ACLs_** stand for Access Control List. It allow us to set specific permission for individual user groups and owner. ACL allow us to set more detailed permission giving us greater flexibility and control over who can access your files and directories.
+- **_ACL_** help us to manage complex permission requirements easily.
+## Use of acl
+- Granular control: Assign permission to individual user or group without changing  the file's ownership.
+- Flexibility: Manage access for multiple users or group with different permission levels.
+- Enhanced Collaboration: Share files and directories securely in multi-user environments.
 
-Use-case of acl 
+## Use-case of acl 
 In linux we have used alc with two types .
-`setfacl` : Using this command we can set permisssion to files or Driectory. 
-`getfacl` : Using this command we check what permission are set to files or Driectory. 
+- `setfacl` : Using this command we can set permisssion to files or Driectory. 
+- `getfacl` : Using this command we check what permission are set to files or Driectory. 
 
 ### Basic Syntax of getfacl:
 ```
