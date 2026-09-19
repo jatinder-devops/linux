@@ -2,9 +2,9 @@
 - **_ACLs_** stand for Access Control List. It allow us to set specific permission for individual user groups and owner. ACL allow us to set more detailed permission giving us greater flexibility and control over who can access your files and directories.
 - **_ACL_** help us to manage complex permission requirements easily.
 ## Use of acl
-- Granular control: Assign permission to individual user or group without changing  the file's ownership.
-- Flexibility: Manage access for multiple users or group with different permission levels.
-- Enhanced Collaboration: Share files and directories securely in multi-user environments.
+- **_Granular control:_** Assign permission to individual user or group without changing  the file's ownership.
+- **_Flexibility:_** Manage access for multiple users or group with different permission levels.
+- **_Enhanced Collaboration:_** Share files and directories securely in multi-user environments.
 
 ## Use-case of acl 
 In linux we have used alc with two types .
