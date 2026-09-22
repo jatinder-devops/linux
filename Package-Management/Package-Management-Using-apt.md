@@ -16,6 +16,10 @@ TO avoid manual confermation
 ```
 sudo apt upgrade -y
 ```
+### To reinstall package
+```
+sudo apt reinstall <package-name>
+```
 ### To upgrade the package with the ability to add or remove packages to resolve conflicts.
 ```
 sudo apt dist-upgrade <package-name>
