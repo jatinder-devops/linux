@@ -37,3 +37,28 @@ sudo dnf autoremove
 ```
 sudo dnf clean all
 ```
+### To add repository 
+```
+sudo dnf config-manager <NAME>
+```
+### To lock an installed package on particular version
+```
+sudo dnf versionlock add <package-name>
+```
+### To unlock the package upgrade
+```
+sudo dnf versionlock delete <pakage-name>
+```
+### To remove all lock
+```
+sudo dnf versionlock clear
+```
+### To one-time temporary skip
+```
+sudo dnf upgrade --exclude=<package_name>/<package1,package2>
+
+```
+### For wildcard patterns
+```
+sudo dnf upgrade --exclude="NAME*"
+```
