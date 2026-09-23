@@ -48,14 +48,27 @@ sudo apt search <package-name>
 ```
 sudo apt show <package-name>
 ```
-### To remove unnecessary packages and cache file.
+### To remove packages that were automatically installed like dependencies to satisfy other packages and no longer needed.
 ```
 sudo apt autoremove 
 ```
+### To remove all cached package files.
 ```
 sudo apt clean 
 ```
 ### To add repository 
 ```
 sudo add-apt-repository <NAME_OF-REPOSITORY>
+```
+### To lock package version to avoid upgrade
+```
+sudo apt-mark hold <package-name>
+```
+### To unlock a package 
+```
+sudo apt-mark unhold <package>
+```
+### To view all locked Package
+```
+sudo apt-mark showhold
 ```
