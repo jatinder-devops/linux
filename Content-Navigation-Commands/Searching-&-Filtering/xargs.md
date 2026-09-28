@@ -15,8 +15,9 @@ echo "file1 file2 file3" | xargs touch
 echo "dev test prod" | xargs mkdir
 ```
 ### Delete multiple files
+```
 echo "old1.log old2.log old3.log" | xargs rm
-
+```
 ### Find and delete .tmp files
 ```
 find /tmp -name "*.tmp" -print0 | xargs -0 rm
