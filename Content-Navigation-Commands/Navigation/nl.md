@@ -45,6 +45,7 @@ nl deploy.sh
 ### Combine nl with a pipe
 
 ### You can number the output of another command:
+```
 
 grep -i "error" app.log | nl
-
+```
